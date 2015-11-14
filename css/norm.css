@@ -1,0 +1,95 @@
+.norm {
+  width: 682px;
+  margin: 0 auto 0 auto;
+  background-color: #fff;
+  padding: 30px;
+}
+.norm_h {
+  margin: 0 0 30px 0;
+  color: #e1121a;
+  font-size: 20px;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.container {
+  width: 559px;
+  margin: 0 auto 0 auto;
+}
+.norm_title {
+  font-size: 12px;
+  color: #909090;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  margin: 0;
+  padding-bottom: 10px;
+}
+.norm_team {
+  margin-top: 18px;
+}
+.norm_team label {
+  font-size: 16px;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: #db281b;
+}
+.norm_team input {
+  width: 200px;
+  height: 36px;
+  background-color: #f6f6f6;
+  margin-left: 22px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  padding-left: 20px;
+  color: #999999;
+}
+.lab_ju {
+  margin-left: 32px;
+}
+#norm_rea {
+  width: 470px;
+  height: 118px;
+  background-color: #f6f6f6;
+  margin-left: 94px;
+  border: 1px solid #cccccc;
+  font-size: 14px;
+  color: #999999;
+  padding: 8px 20px;
+}
+.norm_eara {
+  position: relative;
+  margin-bottom: 30px;
+}
+.norm_eara label {
+  position: absolute;
+  top: 2px;
+  left: 0px;
+}
+#part {
+  width: 270px;
+}
+#norm_part {
+  width: 270px;
+}
+.norm_sub {
+  width: 140px;
+  height: 40px;
+  background-color: #ff414e;
+  margin: 30px 0 34px 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-shadow: 0 0 0 1px #dddddd;
+  -moz-box-shadow: 0 0 0 1px #dddddd;
+  box-shadow: 0 0 0 1px #dddddd;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 8px;
+  cursor: pointer;
+  -moz-border-radius: 4px;
+  /* Gecko browsers */
+  -webkit-border-radius: 4px;
+  /* Webkit browsers */
+  border-radius: 4px;
+  /* W3C syntax */
+  line-height: 36px;
+}
+.footer {
+  margin-top: 34px;
+}
