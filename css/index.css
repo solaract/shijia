@@ -142,7 +142,7 @@ body {
   margin: 28px 0 20px 40px;
 }
 .news_title img {
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
 .news_title a {
   font-family: "SimSun", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
@@ -164,6 +164,7 @@ body {
   font-size: 12px;
 }
 .news_li {
+  height: 30px;
   padding-left: 34px;
   background-color: #f4f4f4;
   overflow: hidden;
@@ -197,7 +198,10 @@ body {
   width: 24px;
   height: 16px;
   float: left;
-  padding-top: 8px;
+  padding-top: 12px;
+}
+.news_tip img {
+  display: block;
 }
 .news_time {
   padding: 8px 66px 0 0;

@@ -1,7 +1,12 @@
 ;(function($){
     //导航滑条动画
     var $bar = $('.nav_bar'),
-        $nav = $('.nav_list');
+        $nav = $('.nav_list'),
+        $main = $('[data-main]');
+    $bar.css({
+        left:$main.data('left')+'px',
+        width:$main.css('width')
+    });
     $nav.on("mouseover",function(e){
         var _target = e.target;
         if(_target.nodeName.toLowerCase() === 'a'){
