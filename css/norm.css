@@ -33,6 +33,7 @@
 .norm_team input {
   width: 200px;
   height: 36px;
+  line-height: 36px;
   background-color: #f6f6f6;
   margin-left: 22px;
   border: 1px solid #cccccc;
