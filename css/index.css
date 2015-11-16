@@ -231,6 +231,9 @@ body {
   background-color: #fff;
   font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
+.log_aft {
+  display: none;
+}
 .log_title {
   font-size: 18px;
   color: #e1121a;
@@ -238,7 +241,7 @@ body {
 }
 #log_form {
   width: 220px;
-  margin: 50px auto 0 auto;
+  margin: 31px auto 0 auto;
 }
 #log_form input {
   height: 36px;
@@ -268,6 +271,26 @@ body {
   /* W3C syntax */
   line-height: 36px;
 }
+.log_err {
+  font-size: 14px;
+  color: #e1121a;
+}
+.log_teacher {
+  background-color: #ff414e;
+  color: #fff;
+  margin-left: 31px;
+  font-size: 14px;
+  padding: 4px;
+  -webkit-box-shadow: 0 0 0 1px #dddddd;
+  -moz-box-shadow: 0 0 0 1px #dddddd;
+  box-shadow: 0 0 0 1px #dddddd;
+  -moz-border-radius: 4px;
+  /* Gecko browsers */
+  -webkit-border-radius: 4px;
+  /* Webkit browsers */
+  border-radius: 4px;
+  /* W3C syntax */
+}
 .log_info {
   width: 200px;
   padding-left: 20px;
@@ -277,6 +300,33 @@ body {
   float: right;
   margin-right: 35px;
   color: #666666;
+}
+.log_suc {
+  width: 272px;
+  height: 227px;
+  overflow: hidden;
+  margin: 7px auto 0 auto;
+}
+.log_out {
+  display: block;
+  height: 36px;
+  width: 220px;
+  color: #fff;
+  background-color: #8a8a8a;
+  font-size: 16px;
+  text-align: center;
+  line-height: 36px;
+  letter-spacing: 9px;
+  -webkit-box-shadow: 1px 1px 0 1px #dddddd;
+  -moz-box-shadow: 1px 1px 0 1px #dddddd;
+  box-shadow: 1px 1px 0 1px #dddddd;
+  -moz-border-radius: 4px;
+  /* Gecko browsers */
+  -webkit-border-radius: 4px;
+  /* Webkit browsers */
+  border-radius: 4px;
+  /* W3C syntax */
+  margin: 0 auto 0 auto;
 }
 .bu_nav_link {
   float: left;

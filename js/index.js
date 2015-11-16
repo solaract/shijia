@@ -25,13 +25,16 @@
         placeh('#user','用户名');
         $('#log_form').on('submit',function(){
             var _user = $('#user').val(),
-                _pass = $('#password').val();
+                _pass = $('#password').val(),
+                _err = $('.log_err');
             if(_user === ''||_user === $('#user').data('placeh')){
-                alert('请输入用户名');
+//                alert('请输入用户名');
+                _err.html('请输入用户名');
                 return false;
             }
             if(_pass === ''){
-                alert('请输入密码');
+//                alert('请输入密码');
+                _err.html('请输入密码');
                 return false;
             }
         });
