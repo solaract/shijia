@@ -47,7 +47,7 @@
     <div class="vote">
 
         <ul class="vote_nav">
-            <a href="#rule"><li class="vote_nav_li">投票规则</li></a>
+            <a href="#rule"><li class="vote_nav_li vote_nav_li_sel">投票规则</li></a>
             <a href="#nor"><li class="vote_nav_li">十佳师德标兵</li></a>
             <a href="#yth"><li class="vote_nav_li">十佳青年教师</li></a>
         </ul>
@@ -57,7 +57,7 @@
             <p class="vote_rule_p">2.投票时间：2015年11月23日00时00分01秒—2015年11月27日23时59分59秒。</p>
             <p class="vote_rule_p">3.点击“ <span class="heart">&#xe708;</span> ”可选择候选人进行投票。</p>
         </div>
-        <div id="nor" class="vote_container">
+        <div id="nor" class="vote_container vote_container_hide">
             <ul class="vote_peo_list">
                 <li class="vote_peo_li">
                     <div class="vote_people">
@@ -125,11 +125,11 @@
                         <p class="vote_part">传媒艺术学院</p>
                     </div>
                 </li>
-
+                <button class="vote_sub vote_subed">已投票</button>
             </ul>
 
         </div>
-        <div id="yth" class="vote_container">
+        <div id="yth" class="vote_container vote_container_hide">
             <ul class="vote_peo_list">
                 <li class="vote_peo_li">
                     <div class="vote_people">
@@ -199,7 +199,7 @@
                 </li>
 
             </ul>
-
+            <button class="vote_sub">投票</button>
         </div>
     </div>
     <div class="footer">
@@ -207,7 +207,7 @@
     </div>
 </div>
 <script src="js/jquery-1.11.3.min.js"></script>
-<script src="js/index-min.js"></script>
+<script src="js/vote-min.js"></script>
 <script>!function(t){function a(t,e){for(var n=!0,i=t.length,o=0;i>o;o++)0===t[o].css("width")&&(n=!1);n?e():setTimeout(function(){a(t,e)},100)}var e=t(".nav_bar"),n=t(".nav_list"),i=t("[data-main]");e.css({left:i.data("left")+"px",width:i.css("width")}),n.on("mouseover",function(a){var n=a.target;if("a"===n.nodeName.toLowerCase()){var i=t(n).data("left")+"px",o=t(n).css("width");e.animate({left:i,width:o},"normal")}return!1}),n.on("mouseleave",function(a){var n=a.target;if("a"===n.nodeName.toLowerCase()){var i=t("[data-main]"),o=i.data("left")+"px",r=i.css("width");e.animate({left:o,width:r},"normal")}});var o=t(".title_mor"),r=t(".title_yth");a([o,r],function(){o.animate({top:"12px"},1500),r.animate({top:"107px"},1500),t(".title_3").animate({opacity:1},1500)})}(jQuery);</script>
 </body>
 </html>

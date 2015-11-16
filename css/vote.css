@@ -71,20 +71,25 @@
   background-color: #b90922;
   border-bottom: 4px solid #a5061d;
 }
+.vote_nav_li_sel {
+  background-color: #b90922;
+  border-bottom: 4px solid #a5061d;
+}
 #rule {
-  display: none;
   height: 1720px;
 }
 #nor {
   width: 867px;
   padding: 75px 39px 73px 39px;
   min-height: 344px;
-  display: none;
 }
 #yth {
   width: 867px;
   padding: 75px 39px 73px 39px;
   min-height: 344px;
+}
+.vote_container_hide {
+  display: none;
 }
 .vote_container {
   padding: 44px 45px;
@@ -186,6 +191,24 @@
 .vote_part {
   margin: 0;
   height: 20px;
+}
+.vote_sub {
+  width: 406px;
+  height: 58px;
+  background-color: #ff8f21;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  border: 1px solid #ee7b09;
+  -webkit-box-shadow: 1px 1px 1px 1px #c10e2a;
+  -moz-box-shadow: 1px 1px 1px 1px #c10e2a;
+  box-shadow: 1px 1px 1px 1px #c10e2a;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.vote_subed {
+  background-color: #b0071f;
+  border: 1px solid #a3071d;
 }
 .detail_container {
   width: 867px;

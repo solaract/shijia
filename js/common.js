@@ -55,10 +55,10 @@
         $yth = $('.title_yth');
     check_img([$mor,$yth],function(){
         $mor.animate({
-            top:'12px',
+            top:'12px'
         },1500);
         $yth.animate({
-            top:'107px',
+            top:'107px'
         },1500);
         $('.title_3').animate({
             opacity:1
