@@ -38,6 +38,12 @@
                 return false;
             }
         });
+
+        $('.norm_suc_sub').click(function(){
+            $('.norm_suc').css({
+                display:'none'
+            })
+        });
         //norm
         placeh('#norm_name','被提名人姓名');
         placeh('#norm_part','被提名人所在单位');
