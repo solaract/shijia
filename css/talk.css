@@ -1,0 +1,42 @@
+.talk {
+  width: 852px;
+  padding: 39px 0 136px 0;
+  background-color: #fff;
+  position: relative;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  margin: 0 auto 0 auto;
+}
+.talk_tip {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+.talk_title {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.talk_title_h {
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+}
+.talk_title_time {
+  width: 480px;
+  font-size: 14px;
+  color: #666666;
+  text-align: right;
+  font-family: 'SimSun', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  margin: 16px auto 0 auto;
+}
+.talk_main {
+  width: 728px;
+  color: #666666;
+  font-size: 16px;
+  margin: 16px auto 0 auto;
+  text-indent: 2em;
+  line-height: 31px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
