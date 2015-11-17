@@ -76,7 +76,8 @@ body{
   margin: 0;
 }
 .bk{
-  width: 1440px;
+  max-width: 1440px;
+  *width: 1440px;
 //  background-color: #ce1e35;
   .center();
 //  background: url("../img/bk.jpg") no-repeat;
@@ -322,7 +323,7 @@ body{
 //  display: none;
 }
 .log_aft{
-  display: none;
+//  display: none;
 }
 
 
@@ -364,6 +365,9 @@ body{
   }
 }
 .log_err{
+
+  display: block;
+  height: 19px;
   font-size: 14px;
   color: #e1121a;
 }

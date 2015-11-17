@@ -46,12 +46,14 @@
         placeh('#part','提名人所在单位（班级或学院）');
         $('#norm_form').on('submit',function(){
             var _inputs = [$('#norm_name'),$('#norm_part'),$('#name'),$('#part')];
-            var _bool = true;
+            var _bool = true,
+                _err = $('.norm_err');
             $.each(_inputs,function(i,value){
                 var _val = value.val(),
                     _placeh = value.data('placeh');
                 if(_val === ''||_val === _placeh){
-                    alert('请输入'+_placeh);
+//                    alert('请输入'+_placeh);
+                    _err.html('请输入'+_placeh);
                     _bool = false;
                     return false;
                 }
@@ -61,7 +63,8 @@
             }
             var _rea = $('#norm_rea').val();
             if(_rea === ''||_rea === $('#norm_rea').data('placeh')){
-                alert('请输入提名推荐理由');
+//                alert('请输入提名推荐理由');
+                _err.html('请输入提名推荐理由');
                 return false;
             }
         })
