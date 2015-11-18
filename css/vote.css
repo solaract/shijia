@@ -1,8 +1,15 @@
 @font-face {
-  font-family: 'iconfont';
-  src: url('../iconfont/iconfont.eot');
+  font-family: 'selcet';
+  src: url('../iconfont/select.eot');
   /* IE9*/
-  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */ url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/iconfont.svg#iconfont') format('svg');
+  src: url('../iconfont/select.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/select.woff') format('woff'), /* chrome、firefox */ url('../iconfont/select.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/select.svg#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+@font-face {
+  font-family: 'ring';
+  src: url('../iconfont/ring.eot');
+  /* IE9*/
+  src: url('../iconfont/ring.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/ring.woff') format('woff'), /* chrome、firefox */ url('../iconfont/ring.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/ring.svg#iconfont') format('svg');
   /* iOS 4.1- */
 }
 .vote {
@@ -107,9 +114,29 @@
 .vote_rule_p {
   line-height: 29px;
 }
+.vote_rule_p_ring {
+  width: 20px;
+  height: 20px;
+  -moz-border-radius: 50px;
+  /* Gecko browsers */
+  -webkit-border-radius: 50px;
+  /* Webkit browsers */
+  border-radius: 50px;
+  /* W3C syntax */
+  border: 2px solid #c3a1a7;
+}
 .heart {
-  font-family: "iconfont" !important;
+  font-family: "selcet" !important;
   font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+}
+.ring {
+  font-family: "ring" !important;
+  font-size: 20px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
@@ -141,7 +168,7 @@
 .vote_face {
   width: 179px;
   height: 180px;
-  margin-bottom: 24px;
+  margin-bottom: 17px;
   overflow: hidden;
   border: 1px solid #b0061e;
   position: relative;
@@ -179,14 +206,53 @@
   margin: auto;
 }
 .vote_name {
-  margin-bottom: 14px;
-  height: 20px;
+  position: relative;
+  margin-bottom: 7px;
+  height: 34px;
+  line-height: 34px;
 }
 .vote_v {
-  margin-left: 121px;
-  color: #c2c2c2;
+  display: block;
+  float: right;
+  width: 20px;
+  height: 20px;
+  font-size: 30px;
+  line-height: 30px;
+  top: 0;
+  right: 5px;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  color: #ff9125;
   text-shadow: 0 0 2px #bb2323;
   cursor: pointer;
+  -moz-border-radius: 50px;
+  /* Gecko browsers */
+  -webkit-border-radius: 50px;
+  /* Webkit browsers */
+  border-radius: 50px;
+  /* W3C syntax */
+  border: 2px solid #c3a1a7;
+  position: absolute;
+  transition: all 0.2s ease 0s;
+  -moz-transition: all 0.2s ease 0s;
+  /* Firefox 4 */
+  -webkit-transition: all 0.2s ease 0s;
+  /* Safari 和 Chrome */
+  -o-transition: all 0.2s ease 0s;
+  /* Opera */
+}
+.vote_ved {
+  color: #c2c2c2;
+  width: 30px;
+  height: 30px;
+  border-width: 0 ;
+}
+.vote_v_in {
+  position: absolute;
+  right: 0;
+  visibility: hidden;
+  z-index: -1;
 }
 .vote_part {
   margin: 0;
@@ -205,6 +271,7 @@
   box-shadow: 1px 1px 1px 1px #c10e2a;
   display: block;
   margin: 0 auto 0 auto;
+  cursor: pointer;
 }
 .vote_subed {
   background-color: #b0071f;
