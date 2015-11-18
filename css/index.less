@@ -205,12 +205,24 @@ body{
 //  background: url("../img/title_bk.png") no-repeat;
   .center(305px);
   margin-bottom: 62px;
+  position: relative;
   span{
     display: block;
-    float: left;
-    margin: 10px 14px;
-
+    height: 22px;
+//    float: left;
+//    margin: 10px 14px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+//     left: 14px;
+     margin: auto;
   }
+}
+.title_3_1{
+  left: 14px;
+}
+.title_3_2{
+  right: 14px;
 }
 //title end
 .container:after{
@@ -334,24 +346,29 @@ body{
 }
 #log_form{
   width: 220px;
-  .center(31px);
+  .center(19px);
 //  label{
 //    width: 100%;
 //    height: 36px;
 //  }
+  label{
+    color: #FA676D;
+    font-size: 12px;
+  }
   input{
     height: 36px;
     line-height: 36px;
     .font_family("Microsoft YaHei");
     font-size: 16px;
     color: #999999;
-    margin-bottom: 20px;
+    margin-bottom: 8px;
 //    vertical-align: middle;
 //    outline: none;
   }
   .log_sub{
     width: 100%;
     background-color: #ff414e;
+    margin:12px 0 20px 0;
     padding: 0;
     border: 0;
 //    border: 1px solid #dddddd;

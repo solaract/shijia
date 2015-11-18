@@ -1,15 +1,8 @@
 @font-face {
-  font-family: 'selcet';
-  src: url('../iconfont/select.eot');
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
   /* IE9*/
-  src: url('../iconfont/select.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/select.woff') format('woff'), /* chrome、firefox */ url('../iconfont/select.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/select.svg#iconfont') format('svg');
-  /* iOS 4.1- */
-}
-@font-face {
-  font-family: 'ring';
-  src: url('../iconfont/ring.eot');
-  /* IE9*/
-  src: url('../iconfont/ring.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/ring.woff') format('woff'), /* chrome、firefox */ url('../iconfont/ring.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/ring.svg#iconfont') format('svg');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../iconfont/iconfont.woff') format('woff'), /* chrome、firefox */ url('../iconfont/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('../iconfont/iconfont.svg#iconfont') format('svg');
   /* iOS 4.1- */
 }
 .vote {
@@ -114,29 +107,9 @@
 .vote_rule_p {
   line-height: 29px;
 }
-.vote_rule_p_ring {
-  width: 20px;
-  height: 20px;
-  -moz-border-radius: 50px;
-  /* Gecko browsers */
-  -webkit-border-radius: 50px;
-  /* Webkit browsers */
-  border-radius: 50px;
-  /* W3C syntax */
-  border: 2px solid #c3a1a7;
-}
 .heart {
-  font-family: "selcet" !important;
+  font-family: "iconfont" !important;
   font-size: 18px;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-stroke-width: 0.2px;
-  -moz-osx-font-smoothing: grayscale;
-  color: #fff;
-}
-.ring {
-  font-family: "ring" !important;
-  font-size: 20px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -webkit-text-stroke-width: 0.2px;
@@ -243,7 +216,7 @@
   /* Opera */
 }
 .vote_ved {
-  color: #c2c2c2;
+  color: #fb6a6e;
   width: 30px;
   height: 30px;
   border-width: 0 ;
