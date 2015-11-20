@@ -187,38 +187,29 @@
 .vote_v {
   display: block;
   float: right;
-  width: 20px;
-  height: 20px;
-  font-size: 30px;
-  line-height: 30px;
+  width: 30px;
+  font-size: 20px;
+  line-height: 38px;
   top: 0;
   right: 5px;
   bottom: 0;
   margin: auto;
   text-align: center;
-  color: #ff9125;
+  overflow: visible;
+  color: #c3a1a7;
   text-shadow: 0 0 2px #bb2323;
   cursor: pointer;
-  -moz-border-radius: 50px;
-  /* Gecko browsers */
-  -webkit-border-radius: 50px;
-  /* Webkit browsers */
-  border-radius: 50px;
-  /* W3C syntax */
-  border: 2px solid #c3a1a7;
   position: absolute;
-  transition: all 0.2s ease 0s;
-  -moz-transition: all 0.2s ease 0s;
+  transition: font-size 0.2s ease 0s;
+  -moz-transition: font-size 0.2s ease 0s;
   /* Firefox 4 */
-  -webkit-transition: all 0.2s ease 0s;
+  -webkit-transition: font-size 0.2s ease 0s;
   /* Safari 和 Chrome */
-  -o-transition: all 0.2s ease 0s;
+  -o-transition: font-size 0.2s ease 0s;
   /* Opera */
 }
 .vote_ved {
   color: #fb6a6e;
-  width: 30px;
-  height: 30px;
   border-width: 0 ;
 }
 .vote_v_in {
