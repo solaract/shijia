@@ -73,6 +73,11 @@
                 _err.html('请输入提名推荐理由');
                 return false;
             }
+        });
+        //normed
+        $('.normed_title_bu').on('click',function(){
+            $('.normed').css({display:'none'});
+            $('.norm').css({display:'block'});
         })
 
 

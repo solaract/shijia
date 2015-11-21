@@ -9,6 +9,7 @@ body {
 }
 .bk {
   max-width: 1440px\9;
+  *width: 1440px;
   margin: 0 auto 0 auto;
 }
 .nav {
@@ -123,12 +124,11 @@ body {
 }
 .title_3 span {
   display: block;
-  height: 22px;
-  line-height: 22px;
+  height: 24px;
+  line-height: 24px;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  top: 50%;
+  margin-top: -12px;
 }
 .title_3_1 {
   left: 14px;

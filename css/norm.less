@@ -71,6 +71,7 @@
   .center();
   background-color: #fff;
   padding: 30px;
+  display: none;
 }
 .norm_h{
 //  margin-top: 30px;
@@ -110,6 +111,7 @@
   input{
     width: 200px;
     height: 36px;
+    outline-color: #db281b;
     line-height: 36px;
     background-color: #f6f6f6;
     //    margin: 0;
@@ -126,6 +128,7 @@
 #norm_rea{
   width: 470px;
   height: 118px;
+  outline-color: #db281b;
   background-color: #f6f6f6;
   margin-left: 94px;
   border: 1px solid #cccccc;
@@ -168,3 +171,105 @@
   margin-top: 34px;
 }
 
+//已提名
+.normed{
+  width: 743px;
+  min-height: 442px;
+  .center();
+  background-color: #fff;
+  padding-bottom: 40px;
+  .font_family("Microsoft YaHei");
+}
+.normed_title{
+  height: 98px;
+
+}
+.normed_title_h{
+  float: left;
+  margin-top: 39px;
+  margin-left: 30px;
+  color: #e1121a;
+  font-size: 18px;
+  span{
+    font-size: 12px;
+    .font_family("SimSun");
+    color: #999999;
+    letter-spacing: 1px;
+    margin-left: 14px;
+  }
+}
+.normed_title_bu{
+  width: 140px;
+  height: 40px;
+  background-color: #ff414e;
+  margin-top: 30px;
+  margin-right: 50px;
+  padding: 0;
+  border: 0;
+  //    border: 1px solid #dddddd;
+  .box_shadow(0,0,#dddddd,1px,0);
+  color: #fff;
+  font-size: 18px;
+//  letter-spacing: 8px;
+  cursor: pointer;
+  .border_radius();
+  line-height: 36px;
+  float: right;
+}
+.normed_container{
+  padding: 10px 90px 30px 105px;
+}
+.normed_container:nth-child(even){
+  background-color: #f6f6f6;
+}
+.normed_container_h{
+  font-size: 16px;
+  color: #737373;
+  margin: 20px 0 0 0 ;
+  letter-spacing: 2px;
+  span{
+    padding: 0 26px;
+    color: #dd3a34;
+    border-bottom: 1px solid #dd3a34;
+  }
+}
+.normed_container_h_null{
+  margin-right: 15px;
+  margin-bottom: 20px;
+  margin-top: 44px;
+  text-align: center;
+  color: #999999;
+  font-size: 24px;
+  letter-spacing: 12px;
+}
+.normed_container_p{
+  font-size: 14px;
+  .font_family("SimSun");
+  color: #999999;
+  margin: 10px 0 0 37px;
+  letter-spacing: 2px;
+  .font_break();
+}
+.normed_container_f:after{
+  content: '';
+  width: 0;
+  display: block;
+  clear: both;
+}
+.normed_container_h_float{
+//  display: inline;
+//  letter-spacing: px;
+  float: left;
+  span{
+    font-size: 14px;
+    .font_family("SimSun");
+    color: #999999;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding: 0;
+    border-bottom: 0;
+  }
+}
+.normed_container_h_float_1{
+  width: 180px;
+}
