@@ -1,0 +1,36 @@
+.rank {
+  width: 945px;
+  margin: 0 auto 0 auto;
+  padding: 44px 45px 150px 45px;
+  background-color: #fff;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+.rank_h {
+  color: #e1121a;
+  font-size: 20px;
+  margin: 0;
+  margin-bottom: 30px;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  text-align: center;
+}
+table {
+  border: 1px solid #ddd ;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.rank_th {
+  border-bottom: 2px solid #ddd;
+}
+.rank_yth {
+  margin-top: 60px;
+}
+th {
+  width: 80px;
+  padding: 8px;
+  color: #333;
+}
+td {
+  text-align: center;
+  padding: 8px;
+  border-top: 1px solid #ddd;
+}

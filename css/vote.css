@@ -188,7 +188,8 @@
   display: block;
   float: right;
   width: 30px;
-  font-size: 20px;
+  height: 34px;
+  font-size: 24px;
   line-height: 38px;
   top: 0;
   right: 5px;
@@ -200,13 +201,6 @@
   text-shadow: 0 0 2px #bb2323;
   cursor: pointer;
   position: absolute;
-  transition: font-size 0.2s ease 0s;
-  -moz-transition: font-size 0.2s ease 0s;
-  /* Firefox 4 */
-  -webkit-transition: font-size 0.2s ease 0s;
-  /* Safari 和 Chrome */
-  -o-transition: font-size 0.2s ease 0s;
-  /* Opera */
 }
 .vote_ved {
   color: #fb6a6e;
@@ -288,4 +282,7 @@
 .detail_val_blo {
   display: block;
   margin-left: 0;
+}
+.norm_suc {
+  display: none;
 }
