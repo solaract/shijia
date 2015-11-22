@@ -77,16 +77,9 @@ body {
   clear: both;
 }
 .title_1 {
-  font-family: 'STXingkai', "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
-  font-style: italic;
-  color: #fff;
-  text-shadow: 1px 1px 0 #f0bebb;
-  font-size: 50px;
   position: absolute;
   top: 34px;
   left: 33px;
-  margin: 0;
-  font-weight: 100;
 }
 .title_yth {
   position: absolute;
@@ -107,6 +100,7 @@ body {
   right: 10px;
   letter-spacing: 0px;
   font-weight: 100;
+  text-shadow: 1px 10px 8px #6c0e18;
 }
 .title_3 {
   width: 364px;

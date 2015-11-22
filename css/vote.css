@@ -116,6 +116,20 @@
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
 }
+.vote_h {
+  color: #fff;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  text-align: center;
+}
+.vote_p {
+  color: #fff;
+  font-family: "Microsoft YaHei", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
 .vote_peo_list {
   padding: 0;
   margin: 0;
@@ -140,10 +154,10 @@
 }
 .vote_face {
   width: 179px;
-  height: 180px;
   margin-bottom: 17px;
   overflow: hidden;
   border: 1px solid #b0061e;
+  font-size: 0;
   position: relative;
 }
 .vote_face img {
@@ -151,6 +165,20 @@
 }
 .vote_face:hover .vote_face_curain {
   display: block;
+}
+.vote_face_num {
+  width: 51px;
+  height: 29px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 14px;
+  text-align: center;
+  line-height: 29px;
+  background-color: #5c5650;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
 }
 .vote_face_curain {
   width: 100%;
@@ -163,20 +191,19 @@
 }
 .vote_face_detail {
   display: block;
-  width: 123px;
-  height: 31px;
+  width: 124px;
+  height: 30px;
   background-color: #ff8f21;
   border: 1px solid #f78412;
   text-align: center;
-  line-height: 31px;
+  line-height: 30px;
   font-size: 16px;
   color: #fff;
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  top: 50%;
+  left: 50%;
+  margin-top: -15px;
+  margin-left: -62px;
 }
 .vote_name {
   position: relative;
@@ -259,7 +286,6 @@
 }
 .detail_face {
   width: 271px;
-  height: 275px;
   overflow: hidden;
   margin-top: 52px;
 }
@@ -276,7 +302,6 @@
   letter-spacing: 2px;
 }
 .detail_val_p {
-  height: 18px;
   margin: 12px 0 28px 144px;
 }
 .detail_val_blo {
